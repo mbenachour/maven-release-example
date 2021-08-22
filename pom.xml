@@ -9,7 +9,7 @@
  	</properties>
 	<scm>
 		<url>https://github.com/mbenachour/maven-release-example.git</url>
-		<connection>scm:git:https://github.com/mbenachour/maven-release-example.git</connection>
+		<connection>scm:git:git@github.com:mbenachour/maven-release-example.git</connection>
       <tag>v${releaseVersion}</tag>
   </scm>
 	
