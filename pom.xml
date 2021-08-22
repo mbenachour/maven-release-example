@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.test</groupId>
 	<artifactId>maven-release-plugin-example</artifactId>
-	<version>0.2-SNAPSHOT</version>
+	<version>0.3</version>
 	<properties>
         <maven.compiler.source>16</maven.compiler.source>
         <maven.compiler.target>16</maven.compiler.target>
@@ -11,7 +11,7 @@
 		<url>https://github.com/mbenachour/maven-release-example.git</url>
 		<connection>scm:git:git@github.com:mbenachour/maven-release-example.git</connection>
 		<developerConnection>scm:git:git@github.com:mbenachour/maven-release-example.git</developerConnection>
-      <tag>HEAD</tag>
+      <tag>v${releaseVersion}</tag>
   </scm>
 	
 	<!-- Repository Information -->
